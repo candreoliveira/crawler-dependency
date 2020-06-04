@@ -1,0 +1,15 @@
+{
+  "name": "crawldep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "npm explore crawl -- npm install --",
+    "start": "npm explore crawl -- npm run start --"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crawl": "git+https://github.com/candreoliveira/crawler.git"
+  }
+}
